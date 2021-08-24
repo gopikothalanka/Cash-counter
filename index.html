@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cash Counter</title>
+</head>
+<body>
+  <div class="container">
+    <section class="Header"><img src="./counter.svg" alt="" srcset=""><h1>Cash Counter</h1></section>
+    
+    <div class="inContainer">
+      <span class="CInput"><h3>Cash:</h3> <input type="text" placeholder="Enter cash amount" id="cash"></span>
+      <span class="CInput"><h3>Bill:</h3> <input type="text" placeholder="Enter bill amount" id="bill"></span>
+    </div>
+    <section class="Button">
+      <button id="submit" onclick="change()">Submit</button>
+    </section>
+    
+    <div class="remainder">
+      <ul>
+        <li><h3>2000</h3><span class="two000" id="two000"></span></li>
+        <li><h3>500</h3><span class="five00" id="five00"></span></li>
+        <li><h3>200</h3><span class="two00" id="two00"></span></li>
+        <li><h3>100</h3><span class="one00" id="one00"></span></li>
+        <li><h3>20</h3><span class="twenty" id="twenty"></span></li>
+        <li><h3>10</h3><span class="ten" id="ten"></span></li>
+        <li><h3>5</h3><span class="five" id="five"></span></li>
+        <li><h3>2</h3><span class="two" id="two"></span></li>
+        <li><h3>1</h3><span class="one" id="one"></span></li>
+        <li><h3>Remaining:</h3><span id="remaining"class="remainder1"></span></li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing:.3mm;
+
+}
+
+body{
+  
+  background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color:#ffff;
+  font-family: 'Rubik', sans-serif;
+  min-width: 290px;
+  max-width: 768px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Header{
+  padding: 1.5rem;
+  max-width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.Header img{
+  max-width: 100px;
+}
+.Header h1{
+  font-size: xx-large;
+}
+
+
+.CInput{
+  display: flex;
+  margin: 1rem;
+  justify-content: space-between;
+}
+.CInput input{
+  background:rgba(255, 255, 255, 0.3);
+  padding: .4rem;
+  border-radius: 5px;
+  border:0;
+  font-style: inherit;
+  font-weight: 600;
+  margin-left: 8px;
+}
+button{
+  padding:0.5rem;
+  background: rgba( 255, 255, 255, 0.18 );
+  border-radius: 5px;
+  border:#ffff solid 1px;
+  color: #ffff;
+  font-size: 1rem;
+  font-weight: 700; 
+}
+
+
+.remainder ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: column;
+  margin :1rem;
+  width: 282px;
+}
+
+.remainder ul li{
+  display: flex;
+  justify-content: space-between;
+  margin-right:2rem;
+  margin-left:2rem;
+}
+.remainder ul li span{
+  color: black;
+  font-weight: 600;
+
+}
+
+
+
+
+
