@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 *{
   padding: 0;
   margin: 0;
@@ -71,7 +75,9 @@ button{
   color: #ffff;
   font-size: 1rem;
   font-weight: 700; 
+  cursor: pointer;
 }
+
 
 
 .remainder ul{
@@ -92,6 +98,19 @@ button{
   color: black;
   font-weight: 600;
 
+}
+footer{
+  position: absolute;
+  bottom: 5px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+  color: #ffff;
+}
+footer a{
+  color: #ffff;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 1mm;
+  
 }
 
 
