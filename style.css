@@ -67,6 +67,9 @@ background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, F
   font-weight: 600;
   margin-left: 8px;
 }
+.Button{
+  min-height: 36.4px;
+}
 button{
   padding:0.5rem;
   background: rgba( 255, 255, 255, 0.18 );
@@ -76,6 +79,9 @@ button{
   font-size: 1rem;
   font-weight: 700; 
   cursor: pointer;
+}
+button:active{
+  font-size: 0.8rem;
 }
 
 
